@@ -47,6 +47,8 @@ class Container extends RectComponent {
             super.cleanAllAndSplash(true);
         } else if (window.location.pathname === ConstantsApi.PATH_SIGN_IN) {
             super.cleanAllAndSplash(false);
+        } else if (window.location.pathname === ConstantsApi.PATH_SIGN_UP) {
+            super.cleanAllAndSplash(false);
         } else {
             super.cleanAllAndSplash(true);
         }
