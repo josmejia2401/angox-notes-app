@@ -14,10 +14,10 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start-prod": "PUBLIC_URL=/web/notes/ PORT=25020 node server.js",
+    "start_prod": "PUBLIC_URL=/web/notes/ PORT=25020 node server.js",
     "start": "PUBLIC_URL=/web/notes/ PORT=25020 react-scripts start",
     "build": "PUBLIC_URL=/ PORT=25020 react-scripts build",
-    "build2": "PUBLIC_URL=/web/notes/ PORT=25020 react-scripts build",
+    "build_prod": "PUBLIC_URL=/web/notes/resources/ PORT=25020 react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

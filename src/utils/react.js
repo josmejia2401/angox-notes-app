@@ -100,6 +100,8 @@ export class RectComponent extends React.Component {
         const requestOptions = { method: 'GET', headers: myHeaders, };
         if (this.state && this.state.currentUser && this.state.currentUser.token) {
             const idToken = this.state.currentUser.token;
+            //myHeaders.set("Authorization", idToken);
+            //myHeaders.set("accountId", this.state.currentUser.id);
             const END_POINT = ConstantsApi.URL_API_TOKEN_VALIDATE(idToken);
             Fetch.fetchWithTimeout(END_POINT, requestOptions).then(result => {
                 callback(result);
