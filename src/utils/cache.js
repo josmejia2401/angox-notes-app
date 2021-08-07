@@ -10,7 +10,7 @@ export function emptyCache() {
             console.error(error);
         }
     }
-    if ('parent' in window && caches in window.parent) {
+    if ('parent' in window && 'caches' in window.parent) {
         try {
             window.parent.caches.delete("call");
         } catch (error) {
