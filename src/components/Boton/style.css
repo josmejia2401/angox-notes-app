@@ -1,0 +1,40 @@
+#toast-app {
+    visibility: hidden;
+    min-width: 200px;
+    /*margin-left: -125px;*/
+    width: auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    /*left: 50%;*/
+    bottom: 30px;
+  }
+  
+  #toast-app.show {
+    visibility: visible;
+    bottom: 30px; 
+    opacity: 1;
+  }
+
+    
+  #toast-app.hidden {
+    visibility: false;
+    bottom: 0px; 
+    opacity: 0;
+  }
+
+  #toast-app.error {
+    background-color: #b33939;
+  }
+
+  #toast-app.info {
+    background-color: #34ace0;
+  }
+
+  #snackbar.warn {
+    background-color: #ffb142;
+  }

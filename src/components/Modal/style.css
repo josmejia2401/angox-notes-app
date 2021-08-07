@@ -1,0 +1,7 @@
+.show-modal {
+    opacity: 1 !important;
+    /*overflow: scroll;*/
+    display: block;
+    background-color: gray;
+    padding-top: 55px;
+}

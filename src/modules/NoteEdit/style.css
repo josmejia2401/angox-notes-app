@@ -1,0 +1,108 @@
+.form-signin {
+    width: 100%;
+    max-width: 450px;
+    padding: 15px;
+    margin: auto;
+}
+
+@media (max-width:480px) {
+    .form-signin {
+        width: 100%;
+        max-width: 450px;
+        padding: 15px;
+        margin: auto;
+    }
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+textarea {
+    border: 0.1 none white !important;
+    overflow: auto;
+    padding: 0 !important;
+    outline: none;
+    resize: none;
+    background-color: #FFF !important;
+    -webkit-user-select: auto;
+
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    border: 1px solid gray;
+    font: medium -moz-fixed;
+    font: -webkit-small-control;
+    height: 118px;
+    overflow: auto;
+    padding: 2px;
+    resize: both;
+    width: 400px;
+}
+
+ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+/*
+para list en notes
+ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+<div class="editable" contenteditable="true">
+    <ul>
+        <li>List item</li>
+    </ul>
+</div>
+
+para agregar images a content:
+#textarea {
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    border: 1px solid gray;
+    font: medium -moz-fixed;
+    font: -webkit-small-control;
+    height: 118px;
+    overflow: auto;
+    padding: 2px;
+    resize: both;
+    width: 400px;
+}
+<div id="textarea" contenteditable="true">
+    <img contenteditable="false" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Koala-ag1.jpg" width="120" height="100"/>
+    <p>I look like a textarea</p>
+</div>
+
+---
+
+<form>
+    <input type="text" id="context"  onClick="paste();">  
+  </form>
+
+<script type="text/javascript"> 
+
+function paste() {  
+
+var sRetrieveData = clipboardData.getData("Text");
+document.getElementById('context').value = sRetrieveData;        
+
+}
+</script>
+*/

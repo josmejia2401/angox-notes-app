@@ -1,0 +1,5 @@
+@media (max-width: 490px) {
+    .navbar {
+        max-height: 170px !important;
+    }
+}
